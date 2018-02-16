@@ -14,7 +14,7 @@
   <br />
   <%= f.label :genre_id %>
   <%= f.collection_select :genre_id, Genre.all, :id, :name %>
-
+  <br />
   <%= f.label :note_contents %>
   <%= f.text_area :note_contents, id: 'song_notes_1', name: 'song[note_contents][]' %>
   <%= f.label :note_contents %>
